@@ -37,8 +37,8 @@ function App() {
 I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> who enjoys
     building clean, modern, and responsive web applications. With experience
     in <b>React.js, JavaScript, HTML, CSS</b>, and tools like <b>Firebase</b>
-    and <b>Git/GitHub</b>, I focus on creating user-friendly solutions that
-    look great and perform well. I’m always curious to learn new technologies and improve my skills. My goal is to deliver projects that not only solve problems but alsoleave a positive impact on users.
+     and <b>Git/GitHub</b>, I focus on creating user-friendly solutions that
+    look great and perform well. I’m always curious to learn new technologies and improve my skills. My goal is to deliver projects that not only solve problems but also leave a positive impact on users.
   </p>
       </section>
 
@@ -95,7 +95,7 @@ I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> who enjoys
   <FaWhatsapp size={35} color="green" />
 </a>
 
-    <a href="https://facebook.com/yourusername" target="_blank" rel="noreferrer">
+    <a href="https://www.facebook.com/share/1J2icWmM81/" target="_blank" rel="noreferrer">
       <FaFacebook size={35} color="#1877f2" />
     </a>
     <a href="https://www.linkedin.com/in/aamir-sohail-46aa3935a" target="_blank" rel="noreferrer">
