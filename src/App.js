@@ -68,6 +68,16 @@ I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> who enjoys
             <p>A portfolio is a structured presentation of work, projects, and accomplishments designed to highlight an individual’s or organization’s skills and experience. It serves as a visual and professional record to demonstrate capabilities to clients, employers, or collaborators.</p>
             <a href="https://github.com/Aamir-8115/portfolio.git" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
+          <div className="project-card">
+            <h3>Golden Farm</h3>
+            <p>Online Golden Farm is a digital platform that allows people to manage and explore a virtual farm from anywhere using the internet. It provides information about farm activities, crops, and birds, and helps users learn modern farming techniques online. Through the platform, people can track the growth of plants, feed birds, and monitor farm resources virtually. Online Golden Farm also promotes awareness about sustainable agriculture and animal care, making it easy for students and enthusiasts to learn farming practices without physically visiting the farm.</p>
+            <a href="https://github.com/Aamir-8115/Golden-Farm.git" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
+             <div className="project-card">
+            <h3>Hospital Management</h3>
+            <p>Hospital Management is the process of organizing and coordinating the operations of a hospital to provide effective healthcare services. It involves managing staff, patients, medical records, finances, and equipment efficiently. A good hospital management system ensures that patients receive timely care, resources are used properly, and the hospital runs smoothly. Modern hospital management often uses computerized systems to maintain patient records, schedule appointments, and track medical supplies, which improves the overall quality of healthcare services.</p>
+            <a href="https://github.com/Aamir-8115/Hospital-Management.git" target="_blank" rel="noreferrer">View on GitHub</a>
+          </div>
         </div>
       </section>
 
