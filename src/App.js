@@ -33,13 +33,10 @@ function App() {
       {/* ===== About ===== */}
       <section id="about" className="about">
         <h2>About Me</h2>
-         <p>
-I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> who enjoys
-    building clean, modern, and responsive web applications. With experience
-    in <b>React.js, JavaScript, HTML, CSS</b>, and tools like <b>Firebase</b>
-     and <b>Git/GitHub</b>, I focus on creating user-friendly solutions that
-    look great and perform well. I’m always curious to learn new technologies and improve my skills. My goal is to deliver projects that not only solve problems but also leave a positive impact on users.
-  </p>
+ <p>
+I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> skilled in <b>React.js, JavaScript, HTML, CSS</b>, and tools like <b>Firebase</b> and <b>Git/GitHub</b>. I create clean, modern, and responsive web applications focused on usability and performance. I love learning new technologies and improving my craft. My goal is to deliver projects that not only solve problems but also provide a great user experience. When I’m not coding, I enjoy exploring new tech trends and finding creative solutions to challenges.
+</p>
+
       </section>
 
       {/* ===== Skills ===== */}
