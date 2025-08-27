@@ -8,7 +8,7 @@ function App() {
     <div>
       {/* ===== Navbar ===== */}
       <nav className="navbar">
-        <h2 className="logo">Aamir Portfolio</h2>
+        <h2 className="logo">Aamir Sohail Portfolio</h2>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -17,7 +17,6 @@ function App() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
       {/* ===== Home ===== */}
       <section id="home" className="home">
         <div className="home-content">
@@ -60,14 +59,14 @@ I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> who enjoys
         <h2>Projects</h2>
         <div className="project-list">
           <div className="project-card">
-            <h3>Portfolio Website</h3>
-            <p>A modern personal portfolio made with React.</p>
-            <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noreferrer">View on GitHub</a>
+            <h3>EmpathEra Social</h3>
+            <p>EmpathEra Social is a human-centered social network focused on kindness, trust, and meaningful engagement. Unlike fast-feed apps, EmpathEra encourages slower, thoughtful sharing through moderated communities, smart safety tools, and privacy-first defaults — so people can connect, learn, and support one another in a healthier online space.</p>
+            <a href="https://github.com/Jasonfoodforest/Empatherasocial-Dev.git" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
           <div className="project-card">
-            <h3>Todo App</h3>
-            <p>A simple Todo application with Firebase authentication.</p>
-            <a href="https://github.com/yourusername/todo-app" target="_blank" rel="noreferrer">View on GitHub</a>
+            <h3>Portfolio</h3>
+            <p>A portfolio is a structured presentation of work, projects, and accomplishments designed to highlight an individual’s or organization’s skills and experience. It serves as a visual and professional record to demonstrate capabilities to clients, employers, or collaborators.</p>
+            <a href="https://github.com/Aamir-8115/portfolio.git" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
       </section>
