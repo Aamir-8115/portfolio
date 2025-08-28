@@ -4,6 +4,8 @@ import profile from "./assets/profile.jpg"; // 👈 apni image yaha import karo
 import "./App.css";
 
 function App() {
+  const cvUrl = "/Aamir-CV.pdf"; // 👈 CV ka simple path (public folder me rakho)
+
   return (
     <div>
       {/* ===== Navbar ===== */}
@@ -17,6 +19,7 @@ function App() {
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
       {/* ===== Home ===== */}
       <section id="home" className="home">
         <div className="home-content">
@@ -33,10 +36,16 @@ function App() {
       {/* ===== About ===== */}
       <section id="about" className="about">
         <h2>About Me</h2>
- <p>
-I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> skilled in <b>React.js, JavaScript, HTML, CSS</b>, and tools like <b>Firebase</b> and <b>Git/GitHub</b>. I create clean, modern, and responsive web applications focused on usability and performance. I love learning new technologies and improving my craft. My goal is to deliver projects that not only solve problems but also provide a great user experience. When I’m not coding, I enjoy exploring new tech trends and finding creative solutions to challenges.
-</p>
+        <p>
+          I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> skilled in <b>React.js, JavaScript, HTML, CSS</b>, and tools like <b>Firebase</b> and <b>Git/GitHub</b>. I create clean, modern, and responsive web applications focused on usability and performance. I love learning new technologies and improving my craft. My goal is to deliver projects that not only solve problems but also provide a great user experience. When I’m not coding, I enjoy exploring new tech trends and finding creative solutions to challenges.
+        </p>
 
+        {/* ✅ CV Download + View Buttons */}
+        <div className="about-actions">
+          <a className="cv-btn" href={cvUrl} download>
+            📄 Download CV
+          </a>
+        </div>
       </section>
 
       {/* ===== Skills ===== */}
@@ -67,45 +76,44 @@ I’m <b>Aamir Sohail</b>, a passionate <b>Frontend Developer</b> skilled in <b>
           </div>
           <div className="project-card">
             <h3>Golden Farm</h3>
-            <p>Online Golden Farm is a digital platform that allows people to manage and explore a virtual farm from anywhere using the internet. It provides information about farm activities, crops, and birds, and helps users learn modern farming techniques online. .</p>
+            <p>Online Golden Farm is a digital platform that allows people to manage and explore a virtual farm from anywhere using the internet. It provides information about farm activities, crops, and birds, and helps users learn modern farming techniques online.</p>
             <a href="https://github.com/Aamir-8115/Golden-Farm.git" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
-             <div className="project-card">
+          <div className="project-card">
             <h3>Hospital Management</h3>
-            <p>Hospital Management is the process of organizing and coordinating the operations of a hospital to provide effective healthcare services. It involves managing staff, patients, medical records, finances, and equipment efficiently. </p>
+            <p>Hospital Management is the process of organizing and coordinating the operations of a hospital to provide effective healthcare services. It involves managing staff, patients, medical records, finances, and equipment efficiently.</p>
             <a href="https://github.com/Aamir-8115/Hospital-Management.git" target="_blank" rel="noreferrer">View on GitHub</a>
           </div>
         </div>
       </section>
 
       {/* ===== Contact ===== */}
-     {/* ===== Contact ===== */}
-<section id="contact" className="contact">
-  <h2>Contact</h2>
-  <p>Let’s connect 🚀</p>
-  <div className="social-icons">
-  <a 
-  href="https://wa.me/923093547281?text=Hello%20Aamir%2C%20I%20saw%20your%20portfolio!" 
-  target="_blank" 
-  rel="noreferrer"
->
-  <FaWhatsapp size={35} color="green" />
-</a>
+      <section id="contact" className="contact">
+        <h2>Contact</h2>
+        <p>Let’s connect 🚀</p>
+        <div className="social-icons">
+          <a 
+            href="https://wa.me/923093547281?text=Hello%20Aamir%2C%20I%20saw%20your%20portfolio!" 
+            target="_blank" 
+            rel="noreferrer"
+          >
+            <FaWhatsapp size={35} color="green" />
+          </a>
+          <a href="https://www.facebook.com/share/1J2icWmM81/" target="_blank" rel="noreferrer">
+            <FaFacebook size={35} color="#1877f2" />
+          </a>
+          <a href="https://www.linkedin.com/in/aamir-sohail-46aa3935a" target="_blank" rel="noreferrer">
+            <FaLinkedin size={35} color="#0a66c2" />
+          </a>
+          <a href="https://github.com/Aamir-8115" target="_blank" rel="noreferrer">
+            <FaGithub size={35} color="black" />
+          </a>
+          <a href="mailto:aamirhashim8115@gmail.com">
+            <MdEmail size={35} color="red" />
+          </a>
+        </div>
+      </section>
 
-    <a href="https://www.facebook.com/share/1J2icWmM81/" target="_blank" rel="noreferrer">
-      <FaFacebook size={35} color="#1877f2" />
-    </a>
-    <a href="https://www.linkedin.com/in/aamir-sohail-46aa3935a" target="_blank" rel="noreferrer">
-      <FaLinkedin size={35} color="#0a66c2" />
-    </a>
-    <a href="https://github.com/Aamir-8115" target="_blank" rel="noreferrer">
-      <FaGithub size={35} color="black" />
-    </a>
-    <a href="mailto:aamirhashim8115@gmail.com">
-      <MdEmail size={35} color="red" />
-    </a>
-  </div>
-</section>
       {/* ===== Footer ===== */}
       <footer>
         <p>© 2025 Aamir | All Rights Reserved</p>

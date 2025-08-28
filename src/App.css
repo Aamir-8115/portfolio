@@ -238,6 +238,29 @@ section h2::after {
   transform: scale(1.2);
   color: var(--primary);
 }
+/* ===== CV Button ===== */
+.cv-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  border: 2px solid transparent;
+}
+
+.cv-btn:hover {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 191, 255, 0.3);
+}
+
 
 /* ===== Footer ===== */
 footer {
